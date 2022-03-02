@@ -17,6 +17,7 @@ url = input("URL:") # Присвоение акатуемого URL
 
 try:
     threads = int(input("Threads: "))
+    print("По умолчанию 443 или 135")
 except ValueError:
     exit("Threads count is incorrect!") # если в потоках указано не число либо оно не верно
 
